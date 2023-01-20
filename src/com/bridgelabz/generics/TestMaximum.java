@@ -14,12 +14,7 @@ public class TestMaximum <T extends Comparable<T>> {
 
     }
 
-    //Default Constructor
-    public TestMaximum()
-    {
-        System.out.println("Welcome to Generic Assignment Problem.");
-    }
-
+  
     public T maximum()
     {
         return TestMaximum.maximum(x, y, z, c);
@@ -52,9 +47,7 @@ public class TestMaximum <T extends Comparable<T>> {
     }
 
     public static void main(String[] args) {
-        //Initialization of object.
-        TestMaximum testMaximum = new TestMaximum();
-
+        
         //Define the array where size is 3(given).
         Integer xInt = 5, yInt = 6, zInt = 7,cInt=8;
         Float xFlt = 5.5f, yFlt = 4.5f, zFlt = 3.5f,cFlt = 3.8f;
