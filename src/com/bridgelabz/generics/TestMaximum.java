@@ -10,16 +10,8 @@ public class TestMaximum <T> {
         this.typeArray = typeArray;
     }
 
-    //Default Constructor
-    public TestMaximum()
-    {
-        System.out.println("Welcome to Generic Assignment Problem.");
-    }
-
-    public static void main(String[] args) {
-        //Initialization of object.
-        TestMaximum testMaximum = new TestMaximum();
-
+  public static void main(String[] args) {
+       
         //Define the array where size is 3(given).
         Integer[] intArray = {5,6,8,7,9};
         Float[] floatArray = {8.5f,5.5f,2.3f,3.9f,6.4f,1.2f};
