@@ -44,17 +44,13 @@ public class TestMaximum <T> {
             if(b > 0)
             {
                 max = (T) testMaximum.typeArray[i];
-                position = i;
             }
         }
         System.out.println("Array is sorted.");
         System.out.println("\nMaximum integer is : "+max);
-        System.out.println("Maximum integer position is : "+position+" in array.");
         printArray(testMaximum.typeArray);
 
     }
-
-    //Print the maximum
     public static void printArray(Object[] typeArray) {
         for (Object element : typeArray)
         {
